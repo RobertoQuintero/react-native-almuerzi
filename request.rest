@@ -1,0 +1,16 @@
+POST https://serverless.langdonhp435.now.sh/api/meals
+Content-Type: application/json
+
+{
+  "name": "Completo",
+  "desc": "Hotdog con palta,tomate y mayonesa"
+}
+###
+
+PUT https://serverless.langdonhp435.now.sh/api/meals/5eadd99b6a1b542c5ebcf363
+Content-Type: application/json
+
+{
+  "name": "Hamburguesa",
+  "desc": "Hamburguesa con papas"
+}
