@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
 })
 
 const MealsScreen = ({ navigation }) => {
- const {loading,data:meals} = useFetch(`https://serverless.langdonhp435.now.sh/api/meals`)
+  const { loading, data: meals } = useFetch(`https://serverless.langdonhp435.now.sh/api/meals`)
 
   return (
     <View style={styles.container}>
